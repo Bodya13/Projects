@@ -1,0 +1,203 @@
+section h1{
+    font-size: 22px;
+    font-weight: inherit;
+    color: #111111;
+    margin: 0;
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+section h4{
+    float: left;
+    margin: 0 13px 0 0;
+    font-size: 16px;
+    font-weight: inherit;
+    color: #111111;
+}
+section .sec{
+    display: flex;
+}
+section .sec li{
+    margin-right: 30px;
+}
+section .sec li a{
+    display: inline-block;
+    border-bottom: 1px solid #ECBEC7;
+    color: #D94971;
+    line-height: 15px;
+    font-size: 16px;
+}
+section .main{
+    display: flex;
+    justify-content: space-between;
+}
+section .sales{
+    width: 768px; 
+    margin-top: 21px; 
+    color: #fff; 
+}
+section .sale-img{
+    height: 420px; 
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+}
+section .mask{
+    background-color: rgba(1, 1, 1, .65);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+}
+section .mask > div{
+    margin: 17px 0 0 27px;
+}
+section .mask a{
+    display: inline-block;
+    color: #fff;
+}
+section .mask div > a{
+    font-size: 20px;
+    line-height: 22px;
+    border-bottom: 1px solid #DADADA;
+}
+section .mask-bottom{
+    background-color: rgba(1, 1, 1, .65);
+    height: 49px;
+}
+section .mask-bottom div{
+    padding: 13px 0 10px 27px;
+}
+section .mask-bottom li:nth-child(1) a{
+    line-height: 18px;
+    border-bottom: 1px solid #DADADA;
+}
+section .mask-bottom li{
+    border-right: 1px solid #fff;
+    display: inline;
+    font-size: 16px;
+    padding: 3px 27px 3px 0px;
+}
+section .mask-bottom li:last-child{
+    border: none;
+}
+section .mask-bottom li:nth-child(2):before{
+    content: " ";
+    background-image: url(../img/sprite.png);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position-x: -195px;
+    background-position-y: 0px;
+    margin: 0px 12px -5px 12px;;
+}
+section .mask-bottom li:nth-child(3):before{
+    content: " ";
+    background-image: url(../img/sprite.png);
+    width: 17px;
+    height: 18px;
+    display: inline-block;
+    background-position-x: -175px;
+    background-position-y: 0px;
+    margin: 0px 12px -5px 12px;
+}
+section aside .bor{
+    background-color: #FFF9E5;
+    border: 1px solid #EEE2BC;
+    width: 370px;
+    height: 420px;
+    border-radius: 3px;
+    padding: 25px 20px 30px 25px;
+    margin-top: 21px;
+}
+section .bor h3{
+    margin-top: -11px;
+    margin-bottom: 12px;
+    font-size: 18px;
+} 
+section .bor p{
+    font-size: 15px;
+}
+section .bor .text{
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+section .bor form{
+    position: relative;
+}
+section .bor .inp{
+    display: inline-block;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+}
+section .bor .inp::placeholder{
+    font-size: 15px;
+    padding-left: 15px;
+}
+section form .send{
+    background-color: #468D23;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+section form .send span{
+    display: inline-block;
+    background-image: url(../img/sprite.png);
+    width: 18px;
+    height: 14px;
+    background-position: -175px -24px;
+}
+section .network{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 85px 85px;
+}
+section .network .fb{
+    display: block;
+    background-image: url(../img/sprite.png);
+    width: 12px;
+    height: 19px;
+    background-position: -178px -41px;
+    margin-top: 23px;
+}
+section .network .vk{
+    display: block;
+    background-image: url(../img/sprite.png);
+    width: 23px;
+    height: 13px;
+    background-position: -195px -25px;
+    margin-top: 29px;
+}
+section .network .tv{
+    display: block;
+    background-image: url(../img/sprite.png);
+    width: 20px;
+    height: 17px;
+    background-position: -197px -41px;
+    margin-top: 36px;
+}
+section .network .ut{
+    display: block;
+    background-image: url(../img/sprite.png);
+    width: 20px;
+    height: 22px;
+    background-position: -170px -62px;
+    margin-top: 31px;
+}
+section .network .a{
+    display: inline-block;
+    border-bottom: 1px solid #ECBEC7;
+    color: #D42859;
+    line-height: 15px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+section .network p{
+    margin-top: 0px;
+    font-size: 13px;
+}

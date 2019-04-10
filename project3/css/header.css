@@ -1,0 +1,172 @@
+
+.header-top {
+    height: 43px;
+}
+header .del-text{
+    display: inline-block;
+    font-size: 13px;
+    color: #666666;
+    margin-right: 48px;
+    margin-top: 10px;
+}
+header .del-text a{
+    display: inline-block;
+    border-bottom: 1px solid #ECBEC7;
+    color: #D42859;
+    line-height: 11px;  
+}
+header .header-center li,
+header .header-center,
+header .header-right,
+header .header-right li{
+    display: inline-block;
+    vertical-align: top;
+}
+header .header-center span{
+    display: block;
+    font-size: 10px;
+    line-height: 5px;
+    color: #999999;
+}
+header .header-center li a{
+    color: #111111;
+    font-size: 15px;
+}
+.blacktext,
+header .header-center li:nth-child(3) a{
+    display: inline-block;
+    font-size: 13px;
+    color: #111111;
+    border-bottom: 1px solid #BBBBBB;
+    line-height: 11px;
+}
+header .header-right li:nth-child(1) a{
+    display: inline-block;
+    border-bottom: 1px solid #ECBEC7;
+    color: #D42859;
+    line-height: 11px;
+    font-size: 13px;
+}
+header .header-right{
+    float: right;
+    margin-top: 7px;
+}
+header .header-center{
+    margin-right: 46px;
+    margin-top: 7px;
+}
+header .header-center li:nth-child(1),
+header .header-right li:nth-child(1),
+header .header-right li:nth-child(2),
+header .header-right li:nth-child(3){
+    margin-right: 15px;
+}
+.header-below{
+    height: 61px;
+}
+header .header-below .logo{
+    display: inline-block;
+    background-image: url(../img/sprite.png);
+    background-position: 0px 0px;
+    width: 168px;
+    height: 58px;
+    margin-right: 61px;
+    margin-top: 2px;
+}
+header .header-below .main-search{
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 3px;
+    margin-top: 25px;
+    width: 368px;
+}
+header input{
+    border: none;
+}
+input[type="search"]:focus::placeholder{
+    color: transparent;
+}
+input[type="search"]::placeholder{
+    color: #9A9A9A;
+    font-size: 16px;
+}
+header .main-search input[type="search"]{
+    width: 90%;
+}
+header .header-below .btn-search{
+    background-image: url(../img/sprite.png);
+    width: 18px;
+    height: 18px;
+    background-position: -1px -62px;
+    float: right;
+}
+header .header-below .icons{
+    float: right;
+    margin-top: 30px;
+}
+header .icons .ic-1{
+    background-image: url(../img/sprite.png);
+    background-position: -1px -84px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 28px;
+}
+header .icons .sp-1{
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    background-image: url(../img/sprite.png);
+    background-position: -28px -89px;
+    width: 10px;
+    height: 10px;
+}
+header .icons .ic-2{
+    background-image: url(../img/sprite.png);
+    background-position: -1px -105px;
+    width: 25px;
+    height: 19px;
+    position: relative;
+    margin-right: 31px;
+}
+header .icons .sp-2{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-image: url(../img/sprite.png);
+    background-position: -29px -105px;
+    width: 18px;
+    height: 18px;
+    color: #FFFFFF;
+    font-size: 11px;
+    padding-top: 3px;
+    padding-right: 1px;
+}
+header .icons .ic-3{
+    background-image: url(../img/sprite.png);
+    background-position: -1px -126px;
+    width: 25px;
+    height: 24px;
+    position: relative;
+    margin-right: 48px; 
+}
+header .icons .sp-3{
+    position: absolute;
+    top: -4px;
+    right: -6px;
+    background-image: url(../img/sprite.png);
+    background-position: -29px -129px;
+    width: 18px;
+    height: 18px;
+    color: #FFFFFF;
+    font-size: 11px;
+    padding-top: 3px;
+    padding-right: 1px;
+}
+header .icons .ic-4{
+    background-image: url(../img/sprite.png);
+    background-position: -1px -155px;
+    width: 21px;
+    height: 21px;
+}

@@ -1,0 +1,85 @@
+nav div > ul{
+    margin-top: 36px;
+}
+nav div > ul  > li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    padding: 10px;
+}
+nav ul > li:hover{
+    background-color: #D9593A;
+    border-radius: 7px;
+}
+nav ul > .rel:hover{
+    border-radius: 7px 7px 0 0;
+}
+nav ul li a{
+    color:#111111;
+    font-size: 17px;
+}
+nav .rel{
+    position: relative;
+    z-index: 2;
+}
+nav .drop-down li a{
+    background-color: #DFDFDF;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #666;
+    transition: 0.5s all;
+}
+nav .drop-down li:last-child a{
+    border-bottom: 0;
+    border-radius: 0 0 0 7px;
+}
+nav .drop-down-2 li:last-child a,
+nav .drop-down-3 li:last-child a{
+    border-radius: 0;
+}
+nav .rel .drop-down-2 li a{
+    background-color: #EAEAEA;
+}
+nav .rel .drop-down-3 li a{
+    background-color: #F5F5ED;
+}
+nav .drop-down li:hover > a{
+    padding: 10px 10px 10px 20px;
+    background-color: #FFF;
+    color: #B03011;
+    transition: 0.5s all;
+}
+nav .drop-down,
+nav .drop-down-2,
+nav .drop-down-3{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    min-width: 200px;
+    box-shadow: 2px 0 10px 1px rgb(223, 223, 223);
+    top: -99999px;
+}
+nav .rel:hover .drop-down{
+    opacity: 1;
+    transition: 0.5s opacity;
+    top: 43px;
+    left: 0px;
+}
+nav .rel .drop-down .rel:hover .drop-down-2,
+nav .rel .drop-down .rel .drop-down-2 .rel:hover .drop-down-3{
+    opacity: 1;
+    transition: 0.5s opacity;
+    top: 0px;
+    right: -200px;
+    border-left: 1px solid  #666;
+    
+}
+nav .rel .drop-down .rel::after,
+nav .rel .drop-down .rel .drop-down-2 .rel::after{
+    position: absolute;
+    content: " ";   
+    border: 5px solid;
+    border-color: transparent transparent transparent #111;
+    top: 18px;
+    right: 2px;
+}
