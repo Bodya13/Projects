@@ -1,0 +1,23 @@
+footer{
+    text-align: center;
+}
+.footer{
+    margin: 50px 0;
+    color: #FFF;
+    font-size: 22px;
+    display: inline-block;
+}
+.like{
+    margin-right: 30px;
+}
+.like:after{
+    position: absolute;
+    content: ' ';
+    display: inline-block;
+    background-image: url(../img/sprite.png);
+    width: 19px;
+    height: 19px;
+    background-position: -3px -61px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
